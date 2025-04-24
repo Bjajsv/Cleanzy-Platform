@@ -1,0 +1,30 @@
+.order-items {
+    margin-top: 16px;
+}
+
+.order-item {
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.item-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.item-price {
+    text-align: right;
+}
+
+.status-select {
+    margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+    .item-image {
+        width: 40px;
+        height: 40px;
+    }
+} 

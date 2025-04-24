@@ -1,0 +1,28 @@
+.order-management {
+    padding: 20px;
+}
+
+.filters-container {
+    margin-bottom: 20px;
+}
+
+.status-chip {
+    min-width: 80px;
+}
+
+.order-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.table-container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+    .order-management {
+        padding: 10px;
+    }
+} 

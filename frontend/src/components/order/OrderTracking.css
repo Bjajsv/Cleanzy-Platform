@@ -1,0 +1,45 @@
+.order-tracking-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tracking-paper {
+    padding: 2rem;
+}
+
+.order-info {
+    margin: 2rem 0;
+}
+
+.tracking-timeline {
+    margin-top: 3rem;
+}
+
+.cancelled-notice {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffebee !important;
+}
+
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.payment-option img {
+    height: 30px;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .order-tracking-container {
+        padding: 1rem;
+    }
+
+    .tracking-paper {
+        padding: 1rem;
+    }
+} 

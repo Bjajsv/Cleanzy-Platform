@@ -1,0 +1,29 @@
+.review-voting {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.voting-buttons {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.vote-count {
+    min-width: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.report-button {
+    margin-left: 16px;
+}
+
+.MuiIconButton-root.report-button {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.MuiIconButton-root.report-button:hover {
+    color: #f44336;
+} 

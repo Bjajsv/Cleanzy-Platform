@@ -1,0 +1,15 @@
+.checkout-stepper {
+    padding: 2rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.MuiStepLabel-label {
+    font-size: 1rem !important;
+}
+
+@media (max-width: 600px) {
+    .MuiStepLabel-label {
+        font-size: 0.8rem !important;
+    }
+} 

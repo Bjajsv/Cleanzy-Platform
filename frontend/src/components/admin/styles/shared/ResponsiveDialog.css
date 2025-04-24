@@ -1,0 +1,51 @@
+/* Shared styles for all dialogs in the admin panel */
+.responsive-dialog {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.dialog-content {
+    padding: 24px;
+}
+
+.dialog-actions {
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .responsive-dialog {
+        margin: 16px;
+    }
+
+    .dialog-content {
+        padding: 16px;
+    }
+
+    .dialog-actions {
+        padding: 12px;
+        flex-direction: column-reverse;
+    }
+
+    .dialog-actions button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .responsive-dialog {
+        margin: 12px;
+    }
+
+    .dialog-content {
+        padding: 12px;
+    }
+
+    .dialog-actions {
+        padding: 8px;
+    }
+} 

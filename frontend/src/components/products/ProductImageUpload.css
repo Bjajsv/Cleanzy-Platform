@@ -1,0 +1,58 @@
+.product-image-upload {
+    padding: 20px;
+}
+
+.dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropzone.active {
+    border-color: #2196f3;
+    background-color: rgba(33, 150, 243, 0.1);
+}
+
+.image-list-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-list-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-list-item:hover .image-actions {
+    opacity: 1;
+}
+
+.image-actions .MuiIconButton-root {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.image-actions .MuiIconButton-root:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.image-actions .main-image {
+    color: #ffd700;
+} 

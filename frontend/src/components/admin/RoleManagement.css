@@ -1,0 +1,56 @@
+.role-management {
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.permission-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.permission-chip {
+    font-size: 12px;
+}
+
+.permissions-section {
+    margin-top: 24px;
+}
+
+.permission-category {
+    margin: 16px 0;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.permission-category h4 {
+    margin: 0 0 12px 0;
+    color: #333;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .role-management {
+        padding: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .header button {
+        width: 100%;
+    }
+
+    .permission-category {
+        padding: 12px;
+    }
+} 

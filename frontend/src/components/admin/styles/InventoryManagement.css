@@ -1,0 +1,96 @@
+.inventory-management {
+    padding: 24px;
+}
+
+.inventory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.inventory-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.stock-status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.875rem;
+}
+
+.status-out {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.status-low {
+    background-color: #fff3e0;
+    color: #ef6c00;
+}
+
+.status-in {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.adjustment-form {
+    padding: 16px;
+}
+
+.history-dialog {
+    min-width: 400px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .inventory-management {
+        padding: 16px;
+    }
+
+    .inventory-header {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+
+    .inventory-header button {
+        width: 100%;
+    }
+
+    .inventory-table {
+        display: block;
+    }
+
+    .inventory-table th,
+    .inventory-table td {
+        min-width: 120px;
+        white-space: nowrap;
+    }
+
+    .adjustment-form {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .inventory-management {
+        padding: 12px;
+    }
+
+    .stock-status {
+        padding: 2px 6px;
+        font-size: 12px;
+    }
+
+    .inventory-table th,
+    .inventory-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .adjustment-form {
+        padding: 8px;
+    }
+} 

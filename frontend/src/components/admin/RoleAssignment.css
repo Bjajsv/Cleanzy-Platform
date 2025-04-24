@@ -1,0 +1,37 @@
+.role-assignment {
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.search-field {
+    width: 300px;
+}
+
+.message-alert {
+    margin-bottom: 16px;
+}
+
+.users-table {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .role-assignment {
+        padding: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .search-field {
+        width: 100%;
+    }
+} 

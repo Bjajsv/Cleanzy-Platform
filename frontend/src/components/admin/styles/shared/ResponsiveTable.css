@@ -1,0 +1,44 @@
+/* Shared styles for all tables in the admin panel */
+.responsive-table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .responsive-table th,
+    .responsive-table td {
+        padding: 10px;
+    }
+
+    .responsive-table-container {
+        margin: 0 -16px;
+        padding: 0 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .responsive-table th,
+    .responsive-table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .responsive-table-container {
+        margin: 0 -12px;
+        padding: 0 12px;
+    }
+} 
